@@ -11,7 +11,7 @@ The year is also evenly divisible by 400. Then it is a leap year.
 This means that in the Gregorian calendar, the years 2000 and 2400 are leap years, 
 while 1800, 1900, 2100, 2200, 2300 and 2500 are NOT leap years.
 
-Task
+TASK
 
 Given a year, determine whether it is a leap year. If it is a leap year, return the Boolean True, 
 otherwise return False.
@@ -19,26 +19,26 @@ otherwise return False.
 Note that the code stub provided reads from STDIN and passes arguments to the is_leap function. 
 It is only necessary to complete the is_leap function.
 
-Input Format
 
+INPUT FORMAT
 Read , the year to test.
 
-Constraints
 
+CONSTRAINTS
 1900 <= year <= 10**5
 
-Output Format
 
+OUTPUT FORMAT
 The function must return a Boolean value (True/False). Output is handled by the provided code stub.
 
-Sample Input 0
 
+SAMPLE INPUT 0
 1990
-Sample Output 0
 
+SAMPLE OUTPUT 0
 False
-Explanation 0
 
+EXPLANATION 0
 1990 is not a multiple of 4 hence it's not a leap year.
 """
 
